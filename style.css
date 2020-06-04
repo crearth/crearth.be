@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;   
+    background: linear-gradient(to left, #0089ff, #0000a8);
+    z-index: -1; 
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    color: white; 
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: Helvetica;
+    z-index: 50;
+}
+#logo {
+    object-fit: scale-down;
+    border: 0;
+    height: 60px;
+    grid-column: 2/4;
+    font-size: 24px;
+}
+
+.hamburger{
+    justify-self: end;
+    height: 35px;
+    width: auto;
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+}
+
+#hero div {
+    height: 60vh;
+}
+
+.geduldboot {
+    position: relative;
+}
+
+.geduldboot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headline {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 60px;
+    color: white;
+}
