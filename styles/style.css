@@ -1,7 +1,13 @@
+/* General */
+
 body {
     margin: 0;
-    color: white;
-    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 400;
 }
 
 .center {
@@ -11,8 +17,12 @@ body {
     text-align: center;
 }
 
-.hero {
-    width: 100vw;
+/* Header */
+
+header {
+    color: white;
+    background-color: black;
+    width: auto;
     height: 100vh;
 }
 
@@ -31,6 +41,15 @@ body {
     position: relative;
     top: 20%;
 }
+
+/* Projects */
+
+.projects {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Desktop media query */
 
 @media only screen and (min-width: 1000px) {
     .logo img {
