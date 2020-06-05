@@ -11,10 +11,15 @@ body {
     text-align: center;
 }
 
-header {
-    position: fixed;
-    width: 100%;
+.hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    position: relative;
     top: 20%;
+    height: 50%;
 }
 
 .logo img {
@@ -22,9 +27,9 @@ header {
     height: auto;
 }
 
-footer img {
-    position: fixed;
-    bottom: 20%;
+.social {
+    position: relative;
+    top: 20%;
 }
 
 @media only screen and (min-width: 1000px) {
