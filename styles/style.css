@@ -23,7 +23,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-   color: lightblue;
+   color: #3ea2ff;
    text-decoration: none;
 }
 
@@ -85,5 +85,9 @@ footer {
 @media only screen and (min-width: 1000px) {
     .logo img {
         width: 150px;
+    }
+
+    .projects .left {
+        width: 50%;
     }
   }
