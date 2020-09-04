@@ -34,6 +34,10 @@ a:active {
     text-align: center;
 }
 
+.light {
+    color: grey;
+}
+
 /* Header */
 
 header {
